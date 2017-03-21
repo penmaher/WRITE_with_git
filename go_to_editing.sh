@@ -9,7 +9,7 @@ cd $paper_path
 echo 'Changed into ' $paper_path
 
 git checkout editing
-$git_path/track_changes/buildlatex.sh ${tex_name}_diff
+$git_path/track_changes/buildlatex.sh ${tex_name}
 
 echo "Open ${tex_name}.tex and then its time to have some fun editing!!!"
 
