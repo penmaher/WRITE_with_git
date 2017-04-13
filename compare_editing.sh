@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#The purpose of this shell script is compar local author bracnhes to editing and generate pdfs located it Editing folder
+#The purpose of this shell script is to compare local author branches to editing branch and generate pdfs located it Editing folder
 
 echo 'Running compare_editing: '
 
