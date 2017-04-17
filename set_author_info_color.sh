@@ -60,10 +60,10 @@ echo '' >> $AUTHORINFO
 echo '% Checking whether "my_author_colors.tex" exists and if so, input it.' >> $AUTHORINFO
 echo '\IfFileExists{my_author_colors.tex}' >> $AUTHORINFO
 echo '{' >> $AUTHORINFO
-echo '  \include{my_author_colors}' >> $AUTHORINFO
+echo '  \input{my_author_colors}' >> $AUTHORINFO
 echo '}' >> $AUTHORINFO
 echo '{' >> $AUTHORINFO
-echo '  \include{author_colors}' >> $AUTHORINFO
+echo '  \input{author_colors}' >> $AUTHORINFO
 echo '}' >> $AUTHORINFO
 echo '' >> $AUTHORINFO
 echo '' >> $AUTHORINFO

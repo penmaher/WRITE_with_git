@@ -8,7 +8,7 @@ echo 'Running compare_editing: '
 
 cd $paper_path
 
-if [ -d "$editing_path" ]; then
+if [ ! -d "$editing_path" ]; then
   mkdir $editing_path
 fi
 
