@@ -20,7 +20,7 @@ These files are needed to set up and define each authors colours, set up to do n
 
 1. Follow steps 1. and 2. above.
 
-3. Fork the testing environment repo (testing_WRITE_with_git) to your local machine. 
+3. Fork the testing environment repo ([testing_WRITE_with_git](https://github.com/penmaher/testing_WRITE_with_git.git)) to your local machine. 
 
 4. Within the testing_WRITE_with_git root directory create a symbolic link called *track_changes* that points to the root directory of WRITE_with_git. eg: 
  `ln -s $path_to_repo/WRITE_with_git/ track_changes`
