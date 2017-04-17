@@ -13,9 +13,9 @@
    height="1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="workflow.svg"
-   inkscape:export-filename="/home/pm366/Documents/PublicCode/TestingTrackChanges/workflow.png"
+   inkscape:export-filename="/home/maher/Documents/Penny/PublicCode/latex_git_track_changes/workflow.png"
    inkscape:export-xdpi="505.75275"
    inkscape:export-ydpi="505.75275">
   <defs
@@ -951,15 +951,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="25.456532"
-     inkscape:cy="266.3946"
+     inkscape:cx="-125.04347"
+     inkscape:cy="665.80842"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1025"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="false">
     <inkscape:grid
@@ -974,7 +974,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1800,7 +1800,7 @@
     <text
        transform="translate(1.3182385,-107.44433)"
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="-66"
        y="434.36218"
        id="text5309-1-6"
@@ -1815,7 +1815,7 @@
          x="-66"
          y="450.61218"
          style="font-size:13px"
-         id="tspan3383">master. Authors make theire revisions </tspan><tspan
+         id="tspan3383">master. Authors make their revisions </tspan><tspan
          sodipodi:role="line"
          x="-66"
          y="466.86218"

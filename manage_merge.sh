@@ -56,15 +56,15 @@ e - manually edit the current hunk
 
 Example:
 
--%DIF DEL hierarchies-oldtmp-9819.tex   Thu Mar  2 17:15:39 2017
--%DIF ADD hierarchies.tex               Thu Mar  2 16:51:25 2017
-+%DIF DEL hierarchies-oldtmp-7320.tex   Thu Mar  2 16:20:32 2017
-+%DIF ADD hierarchies.tex               Thu Mar  2 16:15:47 2017
+-%DIF DEL article-oldtmp-9819.tex   Thu Mar  2 17:15:39 2017
+-%DIF ADD article.tex               Thu Mar  2 16:51:25 2017
++%DIF DEL article-oldtmp-7320.tex   Thu Mar  2 16:20:32 2017
++%DIF ADD article.tex               Thu Mar  2 16:15:47 2017
 
 should be relaced with 
 
- %DIF DEL hierarchies-oldtmp-9819.tex   Thu Mar  2 17:15:39 2017
--%DIF ADD hierarchies.tex               Thu Mar  2 16:51:25 2017
-+%DIF ADD hierarchies.tex               Thu Mar  2 16:15:47 2017
+ %DIF DEL article-oldtmp-9819.tex   Thu Mar  2 17:15:39 2017
+-%DIF ADD article.tex               Thu Mar  2 16:51:25 2017
++%DIF ADD article.tex               Thu Mar  2 16:15:47 2017
 
 For a line you want that has a -, remove the + line then replace the '-' with a 'space'. For accepting a change a line leave as - and +
