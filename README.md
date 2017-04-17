@@ -25,11 +25,11 @@ Editing branch.
 
 For more detailed instructions please read:
 
-- For setup: [https://github.com/penmaher/WRITE_with_git/blob/master/setting_up.md]
-- Instructions for use: [https://github.com/penmaher/WRITE_with_git/blob/master/Instructions_for_use.md]
-- FAQ: [https://github.com/penmaher/WRITE_with_git/blob/master/FAQ.md]
+- [Setup](https://github.com/penmaher/WRITE_with_git/blob/master/setting_up.md)
+- [Instructions for use](https://github.com/penmaher/WRITE_with_git/blob/master/Instructions_for_use.md)
+- [FAQ](https://github.com/penmaher/WRITE_with_git/blob/master/FAQ.md)
 
 ## Requirements
 
-- latexdiff [http://www.ctan.org/tex-archive/support/latexdiff]
+- [latexdiff](http://www.ctan.org/tex-archive/support/latexdiff)
 - LaTeX packages: xparse, todonotes, datetime (optionally: xcolor)
