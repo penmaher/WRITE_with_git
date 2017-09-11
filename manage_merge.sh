@@ -22,8 +22,10 @@ done
 git add -f ${tex_name}_diff.tex
 git commit -m "Generated ${tex_name}_diff.tex"
 
-git checkout editing
-git checkout compare ${tex_name}_diff.tex
+git checkout $editing_branch
+git checkout compare ${tex_name}_diff.tex 
+#the purpose of _diff file is so you can edit ${tex_name}.tex and still keep the track changes in the _diff
+
 cp ${tex_name}_diff.tex ${tex_name}.tex
 
 git add -f ${tex_name}_diff.tex

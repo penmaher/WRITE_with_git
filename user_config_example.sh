@@ -3,6 +3,7 @@
 git_path="$user_path"  
 paper_path=${git_path}
 editing_path=${git_path}/Editing
+editing_branch=editing
 export git_path
 tex_name=article
 declare -a author_list=('penny' 'steve')
