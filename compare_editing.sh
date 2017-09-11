@@ -26,7 +26,7 @@ for author in "${author_list[@]}"
       git checkout $branch_name
       headid=`git rev-parse HEAD`
 
-      git checkout editing
+      git checkout $editing_branch
 
       $git_path/track_changes/runlatexdiffgit.sh ${tex_name} $headid
 
