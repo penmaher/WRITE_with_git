@@ -18,7 +18,7 @@ This package assumes there is only one manager of the project who is competent a
 5. Run ./track_changes/go_to_editing.sh to check out the *editing* branch version of paper.tex and work on blending the version together, fixing spelling, formatting etc. 
    - In the editing step you must manually remove all latexdiff commands (for example `DIFadd` and `DIFFdel`). This will allow you to produce an updated version of the paper without any latexdiff output.
 
-6. When you're happy with the edits, run ./track_changes/compare_editing.sh to generate a pdf for each author that shows the changes to the document since their last revision. These files are located within the Editing/ folder. I usually send these pdf's via email to my authors.
+6. When you're happy with the edits, run ./track_changes/compare_editing.sh to generate a pdf for each author that shows the changes to the document since their last revision. These files are located within the Editing/ folder. I usually send these pdf's via email to my authors. At this stage I usually check which files have changed between branches. To list the files that have changed `git diff --name-status branch1..branch2` or line information with `git diff branch1:path_to_file/file.tex..branch2:path_to_file/file.tex`
 
 7. At this stage the editing branch has the most up-to-date version, so the master and each of the authors branches need to be updated. On the editing branch, merge the master into editing BUT we want to keep the version of the files that are on the editing branch. The merge strategy to achieve this is `git merge -s ours master`.
 
