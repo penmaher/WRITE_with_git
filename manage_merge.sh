@@ -31,9 +31,26 @@ cp ${tex_name}_diff.tex ${tex_name}.tex
 git add -f ${tex_name}_diff.tex
 git add -f ${tex_name}.tex
 
+########################
+
+
+for filename in "${include_files[@]}"
+do
+  for author in "${author_list[@]}"
+  do
+    echo "Merging in $filename changes from $author"
+    #var=($(git diff --name-status master..$branch_prefix$author))
+    #num_files=$(( ${#var[@]} / 2 ))
+    git checkout --patch $branch_prefix$author $filename
+  done
+done
+
+
 git commit -m "Generated ${tex_name}_diff.tex and clobbered ${tex_name}.tex with the changes"
 
 git branch -D compare 
+
+
 git checkout master
 
 echo 'Finished merge of changes and now back on master branch'
