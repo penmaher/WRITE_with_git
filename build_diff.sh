@@ -55,6 +55,8 @@ for author in "${author_list[@]}"
       fi
 
       $git_path/track_changes/runlatexdiffgit.sh  $tex_name $masterid
+      #Copy the pdf output so that the merge is easier for compilated merging.
+      cp ${tex_name}_diff.pdf $editing_path/${tex_name}_diff_$author_pre_merge.pdf
       #manually change the DIFdel and DIFadd for author colour in latex
       sed -ie "s/DIFdel{/DIFdel${author^}{/g" ${tex_name}_diff.tex
       sed -ie "s/DIFadd{/DIFadd${author^}{/g" ${tex_name}_diff.tex
