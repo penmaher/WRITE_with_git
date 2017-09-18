@@ -2,6 +2,10 @@
 
 if [ $1 ] #first input is the filename (without .tex)
 then
+    # TODO: make build latex quiet when compiling
+    #if [[ $2 -eq "--quiet" ]]; then
+    #else
+    #fi
 
     latex $1
     latex $1
